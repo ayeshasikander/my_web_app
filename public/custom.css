@@ -1,0 +1,134 @@
+*{
+    cursor: pointer;
+}
+
+.bg {
+    background-color: black;
+}
+
+.navbar-toggler-icon1 {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    border: 2px solid white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#checkbox {
+    display: none;
+}
+
+.toggle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    transition-duration: .5s;
+}
+
+.bars {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #0a6854, #81c784);
+    /* Adjust gradient colors */
+    border-radius: 4px;
+}
+
+#bar2 {
+    transition-duration: .8s;
+}
+
+#bar1 {
+    width: 50%;
+}
+
+#bar2 {
+    width: 75%;
+}
+
+/* ------------- */
+
+
+
+/* ------------------ */
+
+.btn1 {
+    color: #0497ad;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #0497ad;
+    border-radius: 16px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+.btn1:hover {
+    color: white;
+}
+
+.icons {
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.iconstyle {
+    color: #0497ad;
+    margin: 10px;
+    height: 43px;
+    width: 44px;
+}
+
+/* CSS (or you can use inline styles) */
+.services {
+    margin-top: 40px;
+    padding-top: 150px;
+    margin-bottom: 140px;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.list-bx {
+    padding-left: 45px;
+}
+
+.service-item {
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+    color: #0497ad;
+    transition: color 0.3s;
+}
+
+.service-item::before {
+    content: "\2014";
+    margin-right: 7px;
+    font-size: 24px;
+    position: absolute;
+    left: -35px;
+}
+
+
+.service-item:hover {
+    color: aliceblue;
+}
+
+.content-bx {
+    color: white;
+    margin: 5px;
+}
