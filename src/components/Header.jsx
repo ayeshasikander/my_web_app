@@ -1,5 +1,6 @@
 import React from 'react';
 import Label from './Label';
+import logo from '../assets/Amaryllis-2.png'
 import './style.css'
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 const Header = () => {
@@ -51,7 +52,7 @@ const Header = () => {
 
         <nav className="navbar navbar-expand-lg fixed-top bg" aria-label="Offcanvas navbar large">
             <div className="container">
-                <Label text="Amaryllis" fontSize="20px" />
+                <img src={logo} alt="Amaryllis" style={{height:"55px",width:"200px"}} />
                 <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
                     <div className="toggle">
                         <div id="bar1" className="bars"></div>
@@ -61,7 +62,7 @@ const Header = () => {
                 </button>
                 <div className="offcanvas offcanvas-end " tabIndex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
                     <div className="offcanvas-header bg">
-                        <Label text="Web-App" fontSize="20px" />
+                       <Label text="Web-App" fontSize="20px"/>
                         <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div className="offcanvas-body bg">

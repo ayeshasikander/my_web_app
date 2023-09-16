@@ -30,7 +30,8 @@ const Banner = () => {
                             WebkitBackgroundClip: 'text',
                             color: 'transparent',
                             marginLeft:"60px",
-                            fontFamily:"Tektur"
+                            fontFamily: 'Italianno',
+                            fontStyle:"italic"
                         }}>{text}</span>
                         <Cursor cursorColor='lightgreen' /></h1>
                         <p style={{fontFamily:'sans-serif'}}>Coding your dreams into vibrant reality, we effortlessly unite 
