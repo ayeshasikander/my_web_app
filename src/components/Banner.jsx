@@ -12,7 +12,7 @@ import CustomModal2 from './CustomModal2';
 
 const Banner = () => {
     const [text] = useTypewriter({
-        words: ['Web Developer', 'Full-stack developer', 'React Developer', 'Front-End Developer', 'React Front-End Developer',],
+        words: ['Websites Developer', 'Full Stack developer', 'Front End Developer', 'React Front End Developer', 'React Developer'],
         loop: 0
     });
 

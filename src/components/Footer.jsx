@@ -4,7 +4,7 @@ import { BiLogoGmail, BiLogoTelegram } from 'react-icons/bi';
 import { FaPhone } from 'react-icons/fa';
 import { ImWhatsapp } from 'react-icons/im';
 import { AiOutlineLinkedin } from 'react-icons/ai';
-import { SiFiverr } from 'react-icons/si';
+// import { SiFiverr } from 'react-icons/si';
 import './style.css';
 import CustomModal3 from './CustomModal3';
 
@@ -37,9 +37,9 @@ const Footer = () => {
                             <a className='links' href='https://www.linkedin.com/in/ayesha-sikander-016790247' target="_blank" rel="noopener noreferrer">
                                 <AiOutlineLinkedin className='icon-style' />
                             </a>
-                            <a className='links' href='/' target="_blank" rel="noopener noreferrer">
+                            {/* <a className='links' href='/' target="_blank" rel="noopener noreferrer">
                                 <SiFiverr className='icon-style' />
-                            </a>
+                            </a> */}
                         </div>
                     </Col>
                 </Row>
