@@ -15,8 +15,8 @@ const Footer = () => {
         <section className='footer footer-bg'id='footer'>
             <Container>
                 <Row>
-                    <Col md={12} className='text-center m-4'>
-                        <hr style={{ height: "7px", width: "100%", color: "#0497ad" }}></hr>
+                    <Col md={12} className='text-center'>
+                        <hr style={{ height: "7px", width: "100%", color: "#0497ad",marginTop:"50px" }}></hr>
                         <div className='heading-line mb-1'>  
                             <div className='contact'>Contact Us</div>
                         </div>
