@@ -15,16 +15,27 @@ const Service = () => {
       content3:'Front-End Framework Integration: Integrating robust front-end frameworks like React for dynamic and feature-rich web applications.',
     },
     {
-      title: 'Full Stack Web Development',
+      title: 'React Development',
       content: 'Single Page Application (SPA) Development: Building modern, fast-loading SPAs for streamlined user interactions.',
       content2:'Progressive Web App (PWA) Development: Developing web applications that offer app-like experiences, including offline functionality and push notifications.',
-      content3:'Content Management System (CMS) Integration',
-      content4:'Cross-Browser Compatibility',
+      content3:'Cross-Browser Compatibility',
     },
     {
       title: 'Improving your Websites or Web Apps',
       content: 'E-commerce Website Development: Creating online stores with secure payment processing and user-friendly shopping experiences.',
       content2:'Website Redesign: Revamping and modernizing existing websites to improve aesthetics, functionality, and user engagement.'
+    },
+    {
+      title: 'HTML/CSS Proficiency',
+      content: 'Stunning User Interfaces: Craft visually captivating and intuitive user interfaces using HTML and CSS, enhancing user engagement and satisfaction.',
+      content2:'Responsive Design Mastery: Ensure seamless user experiences across all devices with expertly designed responsive layouts, boosting accessibility and usability.',
+      content3:'Efficiency Through React: Harness the power of React to create dynamic and high-performance web applications, driving interactivity and functionality to the next level.'
+    },
+    {
+      title: 'Websites Development',
+      content: 'Front-End Framework Integration: Leverage top front-end frameworks like React and Angular to efficiently build scalable and high-performance web applications tailored to your needs.',
+      content2:'Responsive Web Design: Craft visually appealing websites that adapt seamlessly to various devices, enhancing user experience and accessibility.',
+      content3:'Interactive JavaScript Development: Elevate your website with dynamic features and real-time interactivity using JavaScript, creating engaging user experiences.'
     }
   ];
 
@@ -80,7 +91,6 @@ const Service = () => {
                 <p style={{ fontSize: "17px" }}>{selectedService?.content}</p>
                 <p style={{ fontSize: "17px" }}>{selectedService?.content2}</p>
                 <p style={{ fontSize: "17px" }}>{selectedService?.content3}</p>
-                <p style={{ fontSize: "17px" }}>{selectedService?.content4}</p>
                 {renderContactButton()}
               </div>
 

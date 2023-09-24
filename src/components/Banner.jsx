@@ -12,7 +12,7 @@ import CustomModal2 from './CustomModal2';
 
 const Banner = () => {
     const [text] = useTypewriter({
-        words: ['Websites Developer', 'Full Stack developer', 'Front End Developer', 'React Front End Developer', 'React Developer'],
+        words: ['Websites Developer', 'Front End Developer','React Developer','React Wizard','Progressive Web Apps(PWAs)','Code Artisan','Code Crafter','Web Dev Guru','Designer & Code Maven'],
         loop: 0
     });
 
@@ -52,7 +52,7 @@ const Banner = () => {
                         <div className='icons'>
                             <a href="https://www.linkedin.com/in/ayesha-sikander-016790247" target="_blank" rel="noopener noreferrer"><PiLinkedinLogoBold className='iconstyle' /></a>
                             <a href="https://github.com/ayeshasikander" target="_blank" rel="noopener noreferrer"><BsGithub className='iconstyle' /></a>
-                            <a href="AYESHA SIKANDER.pdf" download="AYESHA SIKANDER.pdf"><ImProfile className='iconstyle' /></a>
+                            <a href="Ayesha Sikander.pdf" download="Ayesha Sikander .pdf"><ImProfile className='iconstyle' /></a>
                         </div>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
